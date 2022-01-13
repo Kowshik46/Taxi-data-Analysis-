@@ -1,17 +1,3 @@
-#****************************************************
-# R Script Practical Business Analytics Group Project
-#
-#   Group 1
-# > Sanchit Agarwal
-# > Kowshik Kesavarapu
-# > Aravind Vivekanandan 
-# > Kathik Madheswaran
-# > Debjoyti Saha
-# > Visalakshi Abirami Meiyappan
-#****************************************************
-
-setwd("/user/HS402/sa03097/Desktop/PBA")      #please change to appropriate working directory
-
 # Removing all global environment variables from memory
 # Except the loaded dataset
 rm(list=ls()[ls() != "DATASET_GLOBAL"])
@@ -1246,10 +1232,3 @@ if(choice == 1) {
     Metrics <- fread(EVALUATION_METRICS_URL)
     PlotEvaluationMetrics(Metrics)
 }
-  
-
-
-    
-
-
-
